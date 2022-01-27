@@ -8,22 +8,11 @@
 #      percentage of this value
 
 import matplotlib.pyplot as plt
-import pandas as pd
-from pandas_datareader import data
+from loaddata import goog_data
 
-start_date = "2014-01-01"
-end_date = "2018-01-01"
-SRC_DATA_FILENAME = "goog_data.pkl"
-
-try:
-    goog_data2 = pd.read_pickle(SRC_DATA_FILENAME)
-except FileNotFoundError:
-    goog_data2 = data.DataReader("GOOG", "yahoo", start_date, end_date)
-    goog_data2.to_pickle(SRC_DATA_FILENAME)
-
-goog_data2 = goog_data2.tail(620)
-lows = goog_data2["Low"]
-highs = goog_data2["High"]
+goog_data = goog_data.tail(620)
+lows = goog_data["Low"]
+highs = goog_data["High"]
 
 fig = plt.figure()
 ax1 = fig.add_subplot(111, ylabel="Google price in $")
