@@ -1,5 +1,7 @@
 # Chapter 2 - Deciphering the Markets with Technical Analysis
 
+Explored different technical analysis indicators.
+
 # Problems Identified in Chapter 2
 
 ### 1) Code not following standard practice
