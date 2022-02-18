@@ -1,3 +1,5 @@
+# Chapter 3 - Predicting the Markets with Basic Machine Learning
+
 # Problems in Chapter 3
 
 ### Page 90 
