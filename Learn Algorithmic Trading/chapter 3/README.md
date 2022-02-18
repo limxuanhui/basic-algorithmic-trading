@@ -1,5 +1,7 @@
 # Chapter 3 - Predicting the Markets with Basic Machine Learning
 
+Explored some basic machine learning application to the Google price data.
+
 # Problems in Chapter 3
 
 ### Page 90 
